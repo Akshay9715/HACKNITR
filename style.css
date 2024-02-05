@@ -1,31 +1,59 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+    font: arial;
 }
-
-header{
-    background-color: blue;
-    border-block-end-width: 100%;
-    height: 10vh;
-}
-
-main{
-    background-color:red;
-    height: 80vh;
-    width: 100%;
+.navbar{
     display: flex;
 }
-.sidebar{
-    background-color: palegoldenrod;
-    width: 40vh;
-    height: 100%;
-}
-footer{
+.header{
 
-    background-color:green;
-    height: 10vh;
+    height: 200px;
     width: 100%;
+    background-color: rgb(16, 29, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 40px;
+}
+.logo{
+    background-image: url(nitR\ logo.png);
+    height: 200px;
+    width: 260px;
+}
+.menu{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: red;
+    background:linear-gradient(black, rgb(110, 26, 110)) ;
+}
+.content{
+    height: 100px;
+    display: flex;
     
+}
+.notice{
+    height:500px;
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+
+}
+.calender{
+    height: 500px;
+    width: 100%;
+    font-size: 35px ;
+    background-color: #ff9900;
+}
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: brown;
 }
